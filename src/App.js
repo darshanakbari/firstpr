@@ -3,12 +3,14 @@ import './App.css';
 import demo from './component/demo';
 import Time from './component/Time';
 import TimeFun from './component/TimeFun';
+import Counter from './component/Counter';
 
     function App(){
       return (
         <div>
-           <Time/>
-           <TimeFun/>
+           {/* <Time/>
+           <TimeFun/> */}
+           <Counter />
         </div> 
       );  
     }
